@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZHANGJIAYU</Machine>
+    <WindowsUser>jjy</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>com.middol.demo</PackageIdentityName>
+    <PackageIdentityPublisher>CN=%24username%24</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\touch-2.4.2\demo\cordova\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>07945B64BEDC15373E27EB34EC86937A1E4F689CD6F092C154214DD61AB704E4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.middol.demo_1.0.0.0_neutral__bzbj8h50hftv4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.middol.demo_bzbj8h50hftv4!com.middol.demo</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.middol.demo</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=$username$</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\touch-2.4.2\demo\cordova\platforms\windows\build\windows\Debug\AnyCPU\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-26T05:17:41.285</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-26T05:14:00.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-26T05:14:00.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-26T05:14:00.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-26T05:14:00.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2016-10-26T05:14:00.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-26T05:14:00.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2016-10-26T05:14:00.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-26T05:14:00.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-26T05:14:00.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+      <Modified>2016-10-26T05:14:00.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\icons\icon-spot~ipad.png">
+      <PackagePath>www\resources\icons\icon-spot~ipad.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\icons\Icon.png">
+      <PackagePath>www\resources\icons\Icon.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\icons\Icon%402x.png">
+      <PackagePath>www\resources\icons\Icon%402x.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\icons\Icon_Android36.png">
+      <PackagePath>www\resources\icons\Icon_Android36.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\icons\Icon_Android48.png">
+      <PackagePath>www\resources\icons\Icon_Android48.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\icons\Icon~ipad.png">
+      <PackagePath>www\resources\icons\Icon~ipad.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\icons\Icon~ipad%402x.png">
+      <PackagePath>www\resources\icons\Icon~ipad%402x.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\icons\iTunesArtwork.png">
+      <PackagePath>www\resources\icons\iTunesArtwork.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\startup\1496x2048.png">
+      <PackagePath>www\resources\startup\1496x2048.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\startup\1536x2008.png">
+      <PackagePath>www\resources\startup\1536x2008.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\startup\640x920.png">
+      <PackagePath>www\resources\startup\640x920.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\startup\748x1024.png">
+      <PackagePath>www\resources\startup\748x1024.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\startup\768x1004.png">
+      <PackagePath>www\resources\startup\768x1004.png</PackagePath>
+      <Modified>2016-10-26T05:14:15.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\app.js">
+      <PackagePath>www\app.js</PackagePath>
+      <Modified>2016-10-26T05:14:17.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+      <Modified>2016-10-26T05:14:17.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2016-10-26T05:14:17.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2016-10-26T05:14:17.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+      <Modified>2016-10-26T05:14:17.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-10-26T05:14:15.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2016-10-26T05:14:17.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+      <Modified>2016-10-26T05:14:17.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\plugins\cordova-plugin-printer\src\windows\PrinterProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-printer\src\windows\PrinterProxy.js</PackagePath>
+      <Modified>2016-10-26T05:14:17.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\plugins\cordova-plugin-printer\www\printer.js">
+      <PackagePath>www\plugins\cordova-plugin-printer\www\printer.js</PackagePath>
+      <Modified>2016-10-26T05:14:17.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2016-10-26T05:14:14.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2016-10-26T05:14:17.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+      <Modified>2016-10-26T05:14:15.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\css\app.css">
+      <PackagePath>www\resources\css\app.css</PackagePath>
+      <Modified>2016-10-26T05:14:17.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2016-10-26T05:14:17.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\www\resources\startup\320x460.jpg">
+      <PackagePath>www\resources\startup\320x460.jpg</PackagePath>
+      <Modified>2016-10-26T05:14:15.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-10-26T05:14:17.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\touch-2.4.2\demo\cordova\platforms\windows\build\windows\Debug\AnyCPU\win8.1\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-10-26T05:17:41.065</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

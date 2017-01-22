@@ -1,0 +1,1 @@
+D:\touch-2.4.2\demo\cordova\platforms\windows\CordovaApp.Windows.jsproj;neutral

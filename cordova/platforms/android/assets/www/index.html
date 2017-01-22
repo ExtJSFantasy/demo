@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <style type="text/css">
+         /**
+         * Example of an initial loading indicator.
+         * It is recommended to keep this as minimal as possible to provide instant feedback
+         * while other resources are still being loaded for the first time
+         */
+        html, body {
+            height: 100%;
+            background-color: #1985D0
+        }
+
+        #appLoadingIndicator {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            -webkit-animation-name: appLoadingIndicator;
+            -webkit-animation-duration: 0.5s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-direction: linear;
+        }
+
+        #appLoadingIndicator > * {
+            background-color: #FFFFFF;
+            display: inline-block;
+            height: 30px;
+            -webkit-border-radius: 15px;
+            margin: 0 5px;
+            width: 30px;
+            opacity: 0.8;
+        }
+
+        @-webkit-keyframes appLoadingIndicator{
+            0% {
+                opacity: 0.8
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0.8
+            }
+        }
+    </style>
+    <!-- The line below must be kept intact for Sencha Command to build your application -->
+    <script id="microloader" data-app="f3c0dd0b-0824-433f-a213-d60aac238272" type="text/javascript">(function(e){function n(f){window.MSApp?MSApp.execUnsafeLocalFunction(function(){document.write(f)}):document.write(f)}function m(f,b){var a=document.createElement("meta");a.setAttribute("name",f);a.setAttribute("content",b);q.appendChild(a)}var q=e.document.head||e.document.getElementsByTagName("head")[0],b=e.Ext;"undefined"==typeof b&&(e.Ext=b={});b.blink=function(f){var e=f.js||[];f=f.css||[];var a,j,c,h,p,k;navigator.userAgent.match(/IEMobile\/10\.0/)&&(a=document.createElement("style"),a.appendChild(document.createTextNode("@media screen and (orientation: portrait) {@-ms-viewport {width: 320px !important;}}@media screen and (orientation: landscape) {@-ms-viewport {width: 560px !important;}}")),
+document.getElementsByTagName("head")[0].appendChild(a));m("viewport","width\x3ddevice-width, initial-scale\x3d1.0, maximum-scale\x3d1.0, minimum-scale\x3d1.0, user-scalable\x3dno");m("apple-mobile-web-app-capable","yes");m("apple-touch-fullscreen","yes");b.microloaded=!0;var l=window.Ext.filterPlatform=function(a){function c(a){var b=/Mobile(\/|\s)/.test(a);return/(iPhone|iPod)/.test(a)||!/(Silk)/.test(a)&&/(Android)/.test(a)&&(/(Android 2)/.test(a)||b)||/(BlackBerry|BB)/.test(a)&&b||/(Windows Phone)/.test(a)}
+function f(a){return!c(a)&&(/iPad/.test(a)||/Android|Silk/.test(a)||/(RIM Tablet OS)/.test(a)||/MSIE 10/.test(a)&&/; Touch/.test(a))}var g=!1,d=navigator.userAgent,b,e;a=[].concat(a);b=window.location.search.substr(1).split("\x26");e={};var h;for(h=0;h<b.length;h++){var j=b[h].split("\x3d");e[j[0]]=j[1]}if(b=e.platform)return-1!=a.indexOf(b);b=0;for(e=a.length;b<e;b++){switch(a[b]){case "phone":g=c(d);break;case "tablet":g=f(d);break;case "desktop":g=!c(d)&&!f(d);break;case "ios":g=/(iPad|iPhone|iPod)/.test(d);
+break;case "android":g=/(Android|Silk)/.test(d);break;case "blackberry":g=/(BlackBerry|BB)/.test(d);break;case "safari":g=/Safari/.test(d)&&!/(BlackBerry|BB)/.test(d);break;case "chrome":g=/Chrome/.test(d);break;case "ie10":g=/MSIE 10/.test(d);break;case "windows":g=/MSIE 10/.test(d)||/Trident/.test(d);break;case "tizen":g=/Tizen/.test(d);break;case "firefox":g=/Firefox/.test(d)}if(g)return!0}return!1};a=0;for(j=f.length;a<j;a++){c=f[a];"string"!=typeof c&&(h=c.platform,k=c.exclude,p=c.theme,c=c.path);
+if(h){if(!l(h)||l(k))continue;b.theme||(b.theme={});b.theme.name||(b.theme.name=p||"Default")}n('\x3clink rel\x3d"stylesheet" href\x3d"'+c+'"\x3e')}a=0;for(j=e.length;a<j;a++)c=e[a],"string"!=typeof c&&(h=c.platform,k=c.exclude,c=c.path),(!h||l(h)&&!l(k))&&n('\x3cscript src\x3d"'+c+'"\x3e\x3c/script\x3e')}})(this);
+Ext.blink({id:"f3c0dd0b-0824-433f-a213-d60aac238272",hash:"17f81c7ecfe7b706b62b65a1562b615f5507e334",js:[{remote:!0,path:"cordova.js"},{update:"full",hash:"a29b9b01b9a6aa1d3f3b743fab53c5550c1e514d",path:"app.js"}],css:[{update:"full",hash:"fc5c394a4327c0bf51f24ca4acb67b36ecc51de6",path:"resources/css/app.css"}]});</script>
+</head>
+<body>
+    <div id="appLoadingIndicator">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
